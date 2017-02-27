@@ -49,6 +49,7 @@ body {
   float: right;
   width: 670px;
   margin-top: 25px;
+  margin-left: 180px;
 }
 
 .main-menu ul {
@@ -118,7 +119,7 @@ body {
 .promo::after{
   content: "";
   position: absolute;
-  top: -20px;
+  top: 200px;
   left: 487px;
   width: 640px;
   height: 446px;
@@ -408,3 +409,4 @@ color:black;
 @media (max-width:320px) {
  
 }
+
