@@ -466,9 +466,10 @@ padding-left:0px;
  .promo::after{
   content: "";
   position: absolute;
-  top: 217px;
-  left:270px;
-  width: 60%;
+  top: 0px;
+  left:0px;
+  width: 0px;
+  height:0px;
   background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/small-promo.png");
   background-repeat: no-repeat;
   z-index: 5;
@@ -494,6 +495,13 @@ padding-left:0px;
 }
 .header-top {
   margin-bottom: 20px;
+}
+.promo .btn {
+  margin-top: 12px;
+  width: 220px;
+}
+.btn {
+font-size: 18px;
 }
 .features-icon1 {
   margin-left:60px;
@@ -572,11 +580,166 @@ padding-left:0px;
   text-decoration: none;
   font-size: 20px;
   }
-
 }
 
-
 @media (max-width: 479px) {
+.menu {
+overflow:hidden;
+padding-left:0px;
+}
+.menu li a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top:20px;
+  vertical-align: top;
+  font-size: 20px;
+  line-height: 20px;
+  font-family:Trebuchet MS;
+  letter-spacing:-1px;
+  padding:5px 44px 4px 10px; 
+    color:#ffffff;
+    text-decoration: none;
+}
+.menu > li:first-child > a {padding:5px 44px 4px 45px;}
+.menu li.last a {padding:5px 47px 4px 40px;}
+.promo {
+  position: relative;
+  z-index: 10;
+  width:100%;
+ }
+.services-title,
+.contacts-title {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 32px;
+  line-height: 30px;
+  font-family:Trebuchet MS;
+  padding-bottom:0px;
+} 
+ .promo::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left:0px;
+  width: 0px;
+  height:0px;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/small-promo.png");
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.promo-title {
+ font-family:Trebuchet MS;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 50px;
+  color:#00688B;
+  font-weight:bold;
+}
+
+.promo p {
+  width: 300px;
+  margin: 0;
+  margin-bottom: 15px;
+  color:#ffffff;
+  font-size: 18px;
+  line-height: 30px;
+}
+.header-top {
+  margin-bottom: 20px;
+}
+.promo .btn {
+  margin-top: 12px;
+  width: 220px;
+}
+.btn {
+font-size: 18px;
+}
+.features-icon1 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon11s.png");
+  background-repeat: no-repeat;
+}
+
+.features-icon2 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon12s.png");
+  background-repeat: no-repeat;
+}
+
+.features-icon3 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon13s.png");
+  background-repeat: no-repeat;
+}
+.features-item {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin-right: 30px;
+  min-height: 168px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.features-title {
+  margin: 0;
+  margin-bottom: 18px;
+  text-align:center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight:bold;
+   font-family:Trebuchet MS;
+}
+
+.features-item p {
+  margin: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  text-align:center;
+  font-family: Trebuchet MS;
+}
+.feedback-title,
+.contacts-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 50px;
+  font-family:Trebuchet MS;
+}
+
+.all {
+  top: 8px;
+  right: 0;
+  padding-top: 0px;
+  line-height: 1.5;
+  color: #1874CD;
+  text-decoration: none;
+  font-size: 20px;
+  }
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
 .menu {
 	overflow:hidden;
 	padding-left:0px;
@@ -614,9 +777,10 @@ padding-left:0px;
  .promo::after{
   content: "";
   position: absolute;
-  top: 217px;
-  left:270px;
-  width: 60%;
+  top: 0px;
+  left:0px;
+  width: 0px;
+  height:0px;
   background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/small-promo.png");
   background-repeat: no-repeat;
   z-index: 5;
@@ -643,154 +807,12 @@ padding-left:0px;
 .header-top {
   margin-bottom: 20px;
 }
-.features-icon1 {
-  margin-left:60px;
-  margin-bottom:-8px;
-  width: 70px;
-  height: 69px;
-  text-align:center;
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon11s.png");
-  background-repeat: no-repeat;
+.promo .btn {
+  margin-top: 12px;
+  width: 220px;
 }
-
-.features-icon2 {
-  margin-left:60px;
-  margin-bottom:-8px;
-  width: 70px;
-  height: 69px;
-  text-align:center;
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon12s.png");
-  background-repeat: no-repeat;
-}
-
-.features-icon3 {
-  margin-left:60px;
-  margin-bottom:-8px;
-  width: 70px;
-  height: 69px;
-  text-align:center;
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon13s.png");
-  background-repeat: no-repeat;
-}
-.features-item {
-  position: relative;
-  float: left;
-  width: 200px;
-  margin-right: 30px;
-  min-height: 168px;
-}
-
-.features-item:last-child {
-  margin-right: 0;
-}
-
-.features-title {
-  margin: 0;
-  margin-bottom: 18px;
-  text-align:center;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight:bold;
-   font-family:Trebuchet MS;
-}
-
-.features-item p {
-  margin: 0;
-  color: #737373;
-  font-size: 14px;
-  line-height: 24px;
-  text-align:center;
-  font-family: Trebuchet MS;
-}
-.feedback-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 30px;
-  font-size: 25px;
-  line-height: 50px;
-  font-family:Trebuchet MS;
-}
-
-.all {
-  top: 8px;
-  right: 0;
-  padding-top: 0px;
-  line-height: 1.5;
-  color: #1874CD;
-  text-decoration: none;
-  font-size: 20px;
-  }
-
-}
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
- .menu {
-	overflow:hidden;
-	padding-left:0px;
-}
-.menu li a {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
-  margin-top:20px;
-  vertical-align: top;
-  font-size: 20px;
-  line-height: 20px;
-  font-family:Trebuchet MS;
-	letter-spacing:-1px;
-	padding:5px 44px 4px 10px; 
-    color:#ffffff;
-    text-decoration: none;
-}
-.menu > li:first-child > a {padding:5px 44px 4px 45px;}
-.menu li.last a {padding:5px 47px 4px 40px;}
-.promo {
-  position: relative;
-  z-index: 10;
-  width:100%;
- }
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
- .promo::after{
-  content: "";
-  position: absolute;
-  top: 217px;
-  left:270px;
-  width: 60%;
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/small-promo.png");
-  background-repeat: no-repeat;
-  z-index: 5;
-}
-
-.promo-title {
- font-family:Trebuchet MS;
-  margin-bottom: 25px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 50px;
-  color:#00688B;
-  font-weight:bold;
-}
-
-.promo p {
-  width: 300px;
-  margin: 0;
-  margin-bottom: 15px;
-  color:#ffffff;
-  font-size: 18px;
-  line-height: 30px;
-}
-.header-top {
-  margin-bottom: 20px;
+.btn {
+font-size: 18px;
 }
 .features-icon1 {
   margin-left:60px;
