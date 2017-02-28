@@ -48,9 +48,15 @@ body {
 .main-menu {
   float: right;
   margin-top: 25px;
-  padding-left: 80px;
+  }
+  
+.main-menu::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
 }
-
 .main-menu ul {
   margin: 0;
   padding: 0;
@@ -59,6 +65,7 @@ body {
 
 .main-menu li {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 20px;
   vertical-align: top;
   font-size: 24px;
@@ -158,7 +165,7 @@ body {
 }
 
 .features .container::after {
-  display: flexbox;
+  display: table;
   clear: both;
   content: "";
 }
@@ -274,10 +281,19 @@ color:black;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+.main-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 27px;
+  font-family:Trebuchet MS;
+}
 .promo {
   position: relative;
   z-index: 10;
-  width: 30%;
+  width: 45%;
  }
  
  .promo::after{
@@ -295,17 +311,18 @@ color:black;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
 }
 
 .promo p {
+  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 30px;
 }
 .header-top {
@@ -392,10 +409,19 @@ color:black;
 }
 
 @media (max-width: 767px) {
+.main-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 27px;
+  font-family:Trebuchet MS;
+}
 .promo {
   position: relative;
   z-index: 10;
-  width: 30%;
+  width: 45%;
  }
  
  .promo::after{
@@ -413,17 +439,18 @@ color:black;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
 }
 
 .promo p {
+  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 30px;
 }
 .header-top {
@@ -507,13 +534,22 @@ color:black;
   font-size: 20px;
   }
 
-  }
+}
 
 @media (max-width: 479px) {
+.main-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 27px;
+  font-family:Trebuchet MS;
+}
 .promo {
   position: relative;
   z-index: 10;
-  width: 30%;
+  width: 45%;
  }
  
  .promo::after{
@@ -531,17 +567,18 @@ color:black;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
 }
 
 .promo p {
+  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 30px;
 }
 .header-top {
