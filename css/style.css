@@ -620,13 +620,13 @@ padding-left:0px;
   line-height: 20px;
   font-family:Trebuchet MS;
   letter-spacing:-1px;
-  padding:5px 24px 4px 10px; 
+  padding:5px 5px 5px 5px; 
   color:#ffffff;
   text-decoration: none;
 }
 	
-.menu > li:first-child > a {padding:5px 24px 4px 25px;}
-.menu li.last a {padding:5px 27px 4px 20px;}
+.menu > li:first-child > a {padding:5px 5px 5px 15px;}
+.menu li.last a {padding:5px 5px 5px 13px;}
 .promo {
   position: relative;
   z-index: 10;
@@ -786,7 +786,7 @@ padding-left:0px;
   color:#ffffff;
   text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 5px 5px 10px;}
+.menu > li:first-child > a {padding:5px 5px 5px 15px;}
 .menu li.last a {padding:5px 5px 5px 13px;}
 .promo {
   position: relative;
