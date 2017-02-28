@@ -558,7 +558,7 @@ font-size: 18px;
   position: relative;
   float: left;
   width: 200px;
-  margin-right: 130px;
+  margin-left: 70px;
   min-height: 168px;
 }
 
@@ -616,8 +616,8 @@ padding-left:0px;
   margin-right: 20px;
   margin-top:20px;
   vertical-align: top;
-  font-size: 16px;
-  line-height: 10px;
+  font-size: 18px;
+  line-height: 8px;
   font-family:Trebuchet MS;
   letter-spacing:-1px;
   padding:5px 5px 5px 5px; 
@@ -625,8 +625,8 @@ padding-left:0px;
   text-decoration: none;
 }
 	
-.menu > li:first-child > a {padding:5px 5px 5px 20px;}
-.menu li.last a {padding:5px 5px 5px 10px;}
+.menu > li:first-child > a {padding:5px 5px 5px 25px;}
+.menu li.last a {padding:5px 5px 5px 5px;}
 .promo {
   position: relative;
   z-index: 10;
@@ -719,7 +719,7 @@ font-size: 18px;
   position: relative;
   float: left;
   width: 200px;
-  margin-right: 130px;
+  margin-left: 70px;
   min-height: 168px;
 }
 
@@ -786,7 +786,7 @@ padding-left:0px;
   color:#ffffff;
   text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 5px 5px 20px;}
+.menu > li:first-child > a {padding:5px 5px 5px 25px;}
 .menu li.last a {padding:5px 5px 5px 10px;}
 .promo {
   position: relative;
@@ -878,7 +878,7 @@ font-size: 18px;
   position: relative;
   float: left;
   width: 200px;
-  margin-left: 130px;
+  margin-left: 40px;
   min-height: 168px;
 }
 
@@ -924,6 +924,160 @@ font-size: 18px;
   }
 }
 @media (max-width:320px) {
- 
+  .menu {
+overflow:hidden;
+padding-left:0px;
+}
+.menu li a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top:20px;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 8px;
+  font-family:Trebuchet MS;
+  letter-spacing:-1px;
+  padding:5px 5px 5px 5px; 
+  color:#ffffff;
+  text-decoration: none;
+}
+.menu > li:first-child > a {padding:5px 5px 5px 25px;}
+.menu li.last a {padding:5px 5px 5px 5px;}
+.promo {
+  position: relative;
+  z-index: 10;
+  width:100%;
+ }
+.services {
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
+}  
+.services-title,
+.contacts-title {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 32px;
+  line-height: 30px;
+  font-family:Trebuchet MS;
+  padding-bottom:0px;
+} 
+.logo {
+  float: none;
+ }
+ .promo::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left:0px;
+  width: 0px;
+  height:0px;
+}
+
+.promo-title {
+ font-family:Trebuchet MS;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+  color:#0000CD;
+  font-weight:bold;
+}
+
+.promo p {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+  color:#ffffff;
+  font-size: 20px;
+  line-height: 30px;
+}
+.header-top {
+  margin-bottom: 20px;
+}
+.promo .btn {
+  margin-top: 12px;
+  width: 100%;
+}
+.btn {
+font-size: 18px;
+}
+.features-icon1 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon11s.png");
+  background-repeat: no-repeat;
+}
+
+.features-icon2 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon12s.png");
+  background-repeat: no-repeat;
+}
+
+.features-icon3 {
+  margin-left:60px;
+  margin-bottom:-8px;
+  width: 70px;
+  height: 69px;
+  text-align:center;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/icon13s.png");
+  background-repeat: no-repeat;
+}
+.features-item {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin-left: 30px;
+  min-height: 168px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.features-title {
+  margin: 0;
+  margin-bottom: 18px;
+  text-align:center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight:bold;
+   font-family:Trebuchet MS;
+}
+
+.features-item p {
+  margin: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  text-align:center;
+  font-family: Trebuchet MS;
+}
+.features-title,
+.contacts-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 50px;
+  font-family:Trebuchet MS;
+}
+
+.all {
+  top: 8px;
+  right: 0;
+  padding-top: 0px;
+  line-height: 1.5;
+  color: #00008B;
+  text-decoration: none;
+  font-size: 20px;
+  }
+}
 }
 
