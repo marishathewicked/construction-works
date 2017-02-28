@@ -27,129 +27,137 @@ body {
   content: "";
 }
 .menu-row {
-	padding:0;
-	margin-top:3px;
+padding:0;
+margin-top:3px;
 }
 
 .main {
-	width:100%; 	
-	padding:0;
-	margin:0 auto;
-	font-size:0.875em;
-	line-height:1.714em;
-	position:relative;
+width:100%; 	
+padding:0;
+margin:0 auto;
+font-size:0.875em;
+line-height:1.714em;
+position:relative;
 }
+
 .logo {
-  float: left;
-  margin-left:40px;
-  margin-top:-20px;
-  width: 100px;
-  height: 101px;
-  background-image:url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/mainlogo2.png");
-  z-index:500;
+ float: left;
+ margin-left:40px;
+ margin-top:-20px;
+ width: 100px;
+ height: 101px;
+ background-image:url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/mainlogo2.png");
+ z-index:500;
 }
 
 .logo img {
   display: block;
 }
+
 .menu {
-	overflow:hidden;
-	padding-left:150px;
+overflow:hidden;
+padding-left:150px;
 }
 
 .menu li {
-	float:left; 
-	position:relative;
-	list-style-type: none;
+float:left; 
+position:relative;
+list-style-type: none;
 }
+
 .menu li a {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 20px;
-  margin-top:20px;
-  vertical-align: top;
-  font-size: 26px;
-  line-height: 27px;
-  font-family:Trebuchet MS;
-	letter-spacing:-1px;
-	padding:5px 44px 4px 80px; 
-    color:#ffffff;
-    text-decoration: none;
+display: inline-block;
+vertical-align: middle;
+margin-right: 20px;
+margin-top:20px;
+vertical-align: top;
+font-size: 26px;
+line-height: 27px;
+font-family:Trebuchet MS;
+letter-spacing:-1px;
+padding:5px 44px 4px 80px; 
+color:#ffffff;
+text-decoration: none;
 }
 .menu > li:first-child > a {padding:5px 44px 4px 45px;}
 .menu li.last a {padding:5px 47px 4px 40px;}
 .menu li a.active,
 .menu li a:hover {color:#00688B;}
+
 .main-menu {
-  float: right;
-  margin-top: 25px;
-  z-index:10;
+float: right;
+margin-top: 25px;
+z-index:10;
   }
+
 .container {
-  margin: 0 auto;
-  padding: 0 30px;
+margin: 0 auto;
+padding: 0 30px;
  }
  
 .promo {
-  position: relative;
-  padding-top:60px;
-  z-index: 10;
-  width: 40%;
+position: relative;
+padding-top:60px;
+z-index: 10;
+width: 40%;
  }
  
 .promo::after{
-  content: "";
-  position: absolute;
-  top: 85px;
-  left: 487px;
-  width: 640px;
-  height: 446px;
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/big-promo.png");
-  background-repeat: no-repeat;
-  z-index: -1;
+content: "";
+position: absolute;
+top: 85px;
+left: 487px;
+width: 640px;
+height: 446px;
+background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/big-promo.png");
+background-repeat: no-repeat;
+z-index: -1;
 }
 
 .promo-title {
- font-family:Trebuchet MS;
-  margin-bottom: 45px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-  color:#0000CD;
-  font-weight:bold;
+font-family:Trebuchet MS;
+margin-bottom: 45px;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color:#0000CD;
+font-weight:bold;
 }
+
 .promo .btn {
-  margin-top: 12px;
-  width: 320px;
+ margin-top: 12px;
+ width: 320px;
 }
+
 .btn {
-  display: inline-block;
-  padding: 20px;
-  font-size: 20px;
-  line-height: 24px;
-  vertical-align: top;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffffff;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  font-family:Trebuchet MS;
+ display: inline-block;
+ padding: 20px;
+ font-size: 20px;
+ line-height: 24px;
+ vertical-align: top;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #ffffff;
+ cursor: pointer;
+ outline: none;
+ border: none;
+ font-family:Trebuchet MS;
 }
 
 .btn-green {
-  background: #382d78;
+ background: #382d78;
 }
 
 .btn-green:hover {
-  background: #00a666;
+ background: #00a666;
 }
 
 .btn-green:active {
-  background: #00a666;
-  color: #74c39e;
+ background: #00a666;
+ color: #74c39e;
 }
+
 .promo p {
   width: 100%;
   margin: 0;
@@ -266,9 +274,9 @@ color:black;
   line-height: 1.5;
   color: #00008B;
   text-decoration: none;
-  font-size: 25px;
-  
+  font-size: 25px; 
 }
+
 .main-footer {
   padding-top: 65px;
   padding-bottom: 85px;
@@ -286,9 +294,10 @@ color:black;
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
 .menu {
-	overflow:hidden;
-	padding-left:0px;
+overflow:hidden;
+padding-left:0px;
 }
+	
 .menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -298,11 +307,12 @@ color:black;
   font-size: 20px;
   line-height: 20px;
   font-family:Trebuchet MS;
-	letter-spacing:-1px;
-	padding:5px 44px 4px 10px; 
-    color:#ffffff;
-    text-decoration: none;
+  letter-spacing:-1px;
+  padding:5px 44px 4px 10px; 
+  color:#ffffff;
+  text-decoration: none;
 }
+	
 .menu > li:first-child > a {padding:5px 44px 4px 45px;}
 .menu li.last a {padding:5px 47px 4px 40px;}
 .promo {
@@ -310,6 +320,7 @@ color:black;
   z-index: 10;
   width:100%;
  }
+	
 .services-title,
 .contacts-title {
   margin: 0;
@@ -319,6 +330,7 @@ color:black;
   font-family:Trebuchet MS;
   padding-bottom:0px;
 } 
+	
  .promo::after{
   content: "";
   position: absolute;
@@ -329,7 +341,7 @@ color:black;
   background-repeat: no-repeat;
   z-index: 5;
 }
-
+	
 .promo-title {
  font-family:Trebuchet MS;
   margin-bottom: 25px;
@@ -348,9 +360,11 @@ color:black;
   font-size: 18px;
   line-height: 30px;
 }
+	
 .header-top {
   margin-bottom: 20px;
 }
+	
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
@@ -399,7 +413,7 @@ color:black;
   font-size: 20px;
   line-height: 24px;
   font-weight:bold;
-   font-family:Trebuchet MS;
+  font-family:Trebuchet MS;
 }
 
 .features-item p {
@@ -444,10 +458,10 @@ padding-left:0px;
   font-size: 20px;
   line-height: 20px;
   font-family:Trebuchet MS;
-	letter-spacing:-1px;
-	padding:5px 24px 4px 10px; 
-    color:#ffffff;
-    text-decoration: none;
+  letter-spacing:-1px;
+   padding:5px 24px 4px 10px; 
+   color:#ffffff;
+   text-decoration: none;
 }
 .menu > li:first-child > a {padding:5px 24px 4px 25px;}
 .menu li.last a {padding:5px 27px 4px 20px;}
@@ -456,6 +470,7 @@ padding-left:0px;
   z-index: 10;
   width:100%;
  }
+	
 .services-title,
 .contacts-title {
   margin: 0;
@@ -468,6 +483,7 @@ padding-left:0px;
 .logo {
   float: none;
  }
+	
  .promo::after{
   content: "";
   position: absolute;
@@ -495,16 +511,20 @@ padding-left:0px;
   font-size: 20px;
   line-height: 30px;
 }
+	
 .header-top {
   margin-bottom: 20px;
 }
+	
 .promo .btn {
-  margin-top: 12px;
-  width: 100%;
+ margin-top: 12px;
+ width: 100%;
 }
+	
 .btn {
 font-size: 18px;
 }
+	
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
@@ -586,9 +606,10 @@ font-size: 18px;
 
 @media (max-width: 479px) {
 .menu {
-	overflow:hidden;
-	padding-left:0px;
+overflow:hidden;
+padding-left:0px;
 }
+	
 .menu li a {
   display: inline-block;
   vertical-align: middle;
@@ -598,11 +619,12 @@ font-size: 18px;
   font-size: 20px;
   line-height: 20px;
   font-family:Trebuchet MS;
-	letter-spacing:-1px;
-	padding:5px 24px 4px 10px; 
-    color:#ffffff;
-    text-decoration: none;
+  letter-spacing:-1px;
+  padding:5px 24px 4px 10px; 
+  color:#ffffff;
+  text-decoration: none;
 }
+	
 .menu > li:first-child > a {padding:5px 24px 4px 25px;}
 .menu li.last a {padding:5px 27px 4px 20px;}
 .promo {
@@ -610,9 +632,11 @@ font-size: 18px;
   z-index: 10;
   width:100%;
  }
+	
 .services {
   background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
 }
+	
 .services-title,
 .contacts-title {
   margin: 0;
