@@ -262,16 +262,6 @@ padding-left:0px;
   width:100%;
  }
 	
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
-	
  .promo::after{
   content: "";
   position: absolute;
@@ -412,15 +402,6 @@ padding-left:0px;
   width:100%;
  }
 	
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
 .logo {
   float: none;
  }
@@ -437,6 +418,7 @@ padding-left:0px;
 .promo-title {
  font-family:Trebuchet MS;
   margin-bottom: 25px;
+  margin-left:25px;
   font-weight: 700;
   font-size: 28px;
   line-height: 50px;
@@ -455,15 +437,6 @@ padding-left:0px;
 	
 .header-top {
   margin-bottom: 20px;
-}
-	
-.promo .btn {
- margin-top: 12px;
- width: 100%;
-}
-	
-.btn {
-font-size: 18px;
 }
 	
 .features-icon1 {
@@ -573,20 +546,7 @@ padding-left:0px;
   z-index: 10;
   width:100%;
  }
-	
-.services {
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
-}
-	
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
+
 .logo {
   float: none;
  }
@@ -602,6 +562,7 @@ padding-left:0px;
 .promo-title {
  font-family:Trebuchet MS;
   margin-bottom: 25px;
+  margin-left:25px;
   font-weight: 700;
   font-size: 28px;
   line-height: 50px;
@@ -619,13 +580,6 @@ padding-left:0px;
 }
 .header-top {
   margin-bottom: 20px;
-}
-.promo .btn {
-  margin-top: 12px;
-  width: 100%;
-}
-.btn {
-font-size: 18px;
 }
 .features-icon1 {
   margin-left:60px;
@@ -734,18 +688,6 @@ padding-left:0px;
   z-index: 10;
   width:100%;
  }
-.services {
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
-}  
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
 .logo {
   float: none;
  }
@@ -761,6 +703,7 @@ padding-left:0px;
 .promo-title {
  font-family:Trebuchet MS;
   margin-bottom: 25px;
+  margin-left:25px;
   font-weight: 700;
   font-size: 28px;
   line-height: 50px;
@@ -778,13 +721,6 @@ padding-left:0px;
 }
 .header-top {
   margin-bottom: 20px;
-}
-.promo .btn {
-  margin-top: 12px;
-  width: 100%;
-}
-.btn {
-font-size: 18px;
 }
 .features-icon1 {
   margin-left:60px;
@@ -890,18 +826,7 @@ padding-left:0px;
   z-index: 10;
   width:100%;
  }
-.services {
-  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
-}  
-.services-title,
-.contacts-title {
-  margin: 0;
-  margin-bottom: 60px;
-  font-size: 32px;
-  line-height: 30px;
-  font-family:Trebuchet MS;
-  padding-bottom:0px;
-} 
+	
 .logo {
   float: none;
  }
@@ -917,6 +842,7 @@ padding-left:0px;
 .promo-title {
  font-family:Trebuchet MS;
   margin-bottom: 25px;
+  margin-left:25px;
   font-weight: 700;
   font-size: 28px;
   line-height: 50px;
@@ -935,13 +861,7 @@ padding-left:0px;
 .header-top {
   margin-bottom: 20px;
 }
-.promo .btn {
-  margin-top: 12px;
-  width: 100%;
-}
-.btn {
-font-size: 18px;
-}
+	
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
