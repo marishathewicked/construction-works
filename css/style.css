@@ -88,7 +88,8 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 30px;
-  }
+ }
+ 
 .promo {
   position: relative;
   padding-top:60px;
@@ -114,7 +115,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-  color:#00688B;
+  color:#0000CD;
   font-weight:bold;
 }
 .promo .btn {
@@ -233,10 +234,14 @@ body {
 
 .services {
   background:#CDB5CD;
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage7.jpg");
   padding-top: 50px;
   padding-bottom: 69px;
 }
-
+.services .color {
+background:#DCDCDC;
+opacity:0.7;
+}
 .services .container {
   position: relative;
 }
@@ -248,6 +253,7 @@ body {
   font-size: 45px;
   line-height: 50px;
   font-family:Trebuchet MS;
+  opacity:1;
 }
 .services-title a {
 text-decoration:none;
@@ -258,7 +264,7 @@ color:black;
   right: 0;
   padding-top: 0px;
   line-height: 1.5;
-  color: #1874CD;
+  color: #00008B;
   text-decoration: none;
   font-size: 25px;
   
@@ -271,7 +277,6 @@ color:black;
   font-size: 18px;
   line-height: 24px;
 }
-
 
 /* media */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -419,7 +424,7 @@ color:black;
   right: 0;
   padding-top: 0px;
   line-height: 1.5;
-  color: #1874CD;
+  color: #00008B;
   text-decoration: none;
   font-size: 20px;
   }
@@ -574,7 +579,7 @@ font-size: 18px;
   right: 0;
   padding-top: 0px;
   line-height: 1.5;
-  color: #1874CD;
+  color: #00008B;
   text-decoration: none;
   font-size: 20px;
   }
@@ -728,7 +733,7 @@ font-size: 18px;
   right: 0;
   padding-top: 0px;
   line-height: 1.5;
-  color: #1874CD;
+  color: #00008B;
   text-decoration: none;
   font-size: 20px;
   }
@@ -747,16 +752,16 @@ font-size: 18px;
   margin-right: 20px;
   margin-top:20px;
   vertical-align: top;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
   font-family:Trebuchet MS;
 	letter-spacing:-1px;
-	padding:5px 10px 5px 10px; 
+	padding:5px 5px 5px 5px; 
     color:#ffffff;
     text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 15px 5px 15px;}
-.menu li.last a {padding:5px 20px 5px 20px;}
+.menu > li:first-child > a {padding:5px 5px 5px 5px;}
+.menu li.last a {padding:5px 5px 5px 5px;}
 .promo {
   position: relative;
   z-index: 10;
@@ -884,7 +889,7 @@ font-size: 18px;
   right: 0;
   padding-top: 0px;
   line-height: 1.5;
-  color: #1874CD;
+  color: #00008B;
   text-decoration: none;
   font-size: 20px;
   }
