@@ -306,13 +306,14 @@ color:black;
   z-index: 10;
   width: 45%;
  }
- .services-title,
+.services-title,
 .contacts-title {
   margin: 0;
   margin-bottom: 60px;
   font-size: 20px;
   line-height: 30px;
   font-family:Trebuchet MS;
+} 
  .promo::after{
   content: "";
   position: absolute;
@@ -424,6 +425,11 @@ color:black;
   }
 
 }
+
+@media (max-width: 767px) {
+
+  }
+
 
 @media (max-width: 767px) {
 
