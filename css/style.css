@@ -779,15 +779,15 @@ padding-left:0px;
   margin-top:20px;
   vertical-align: top;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 10px;
   font-family:Trebuchet MS;
   letter-spacing:-1px;
   padding:5px 5px 5px 5px; 
   color:#ffffff;
   text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 5px 5px 15px;}
-.menu li.last a {padding:5px 5px 5px 20px;}
+.menu > li:first-child > a {padding:5px 5px 5px 10px;}
+.menu li.last a {padding:5px 5px 5px 13px;}
 .promo {
   position: relative;
   z-index: 10;
