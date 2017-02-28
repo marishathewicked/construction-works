@@ -410,7 +410,7 @@ color:black;
   text-align:center;
   font-family: Trebuchet MS;
 }
-.feedback-title,
+.features-title,
 .contacts-title {
   margin: 0;
   margin-bottom: 30px;
@@ -428,7 +428,6 @@ color:black;
   text-decoration: none;
   font-size: 20px;
   }
-
 }
 
 @media (max-width: 767px) {
@@ -565,7 +564,7 @@ font-size: 18px;
   text-align:center;
   font-family: Trebuchet MS;
 }
-.feedback-title,
+.features-title,
 .contacts-title {
   margin: 0;
   margin-bottom: 30px;
@@ -611,6 +610,9 @@ font-size: 18px;
   z-index: 10;
   width:100%;
  }
+.services {
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
+}
 .services-title,
 .contacts-title {
   margin: 0;
@@ -719,7 +721,7 @@ font-size: 18px;
   text-align:center;
   font-family: Trebuchet MS;
 }
-.feedback-title,
+.features-title,
 .contacts-title {
   margin: 0;
   margin-bottom: 30px;
@@ -760,13 +762,16 @@ font-size: 18px;
     color:#ffffff;
     text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 5px 5px 5px;}
+.menu > li:first-child > a {padding:5px 15px 5px 5px;}
 .menu li.last a {padding:5px 5px 5px 5px;}
 .promo {
   position: relative;
   z-index: 10;
   width:100%;
  }
+.services {
+  background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/headimage71.jpg");
+}  
 .services-title,
 .contacts-title {
   margin: 0;
@@ -875,7 +880,7 @@ font-size: 18px;
   text-align:center;
   font-family: Trebuchet MS;
 }
-.feedback-title,
+.features-title,
 .contacts-title {
   margin: 0;
   margin-bottom: 30px;
