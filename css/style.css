@@ -477,7 +477,7 @@ padding-left:0px;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
@@ -488,7 +488,7 @@ padding-left:0px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 .header-top {
@@ -631,7 +631,7 @@ font-size: 18px;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
@@ -642,7 +642,7 @@ font-size: 18px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 .header-top {
@@ -751,12 +751,12 @@ font-size: 18px;
   line-height: 20px;
   font-family:Trebuchet MS;
 	letter-spacing:-1px;
-	padding:5px 24px 4px 10px; 
+	padding:5px 10px 5px 10px; 
     color:#ffffff;
     text-decoration: none;
 }
-.menu > li:first-child > a {padding:5px 24px 4px 25px;}
-.menu li.last a {padding:5px 27px 4px 20px;}
+.menu > li:first-child > a {padding:5px 15px 5px 15px;}
+.menu li.last a {padding:5px 20px 5px 20px;}
 .promo {
   position: relative;
   z-index: 10;
@@ -787,7 +787,7 @@ font-size: 18px;
  font-family:Trebuchet MS;
   margin-bottom: 25px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 28px;
   line-height: 50px;
   color:#00688B;
   font-weight:bold;
@@ -798,7 +798,7 @@ font-size: 18px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 .header-top {
