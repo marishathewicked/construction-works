@@ -113,7 +113,7 @@ body {
 .promo {
   position: relative;
   z-index: 10;
-  width: 440px;
+  width: 40%;
  }
  
 .promo::after{
@@ -278,7 +278,7 @@ color:black;
 .promo {
   position: relative;
   z-index: 10;
-  width: 310px;
+  width: 30%;
  }
  
  .promo::after{
@@ -303,7 +303,6 @@ color:black;
 }
 
 .promo p {
-  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
@@ -397,7 +396,7 @@ color:black;
 .promo {
   position: relative;
   z-index: 10;
-  width: 310px;
+  width: 30%;
  }
  
  .promo::after{
@@ -422,7 +421,6 @@ color:black;
 }
 
 .promo p {
-  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
@@ -516,7 +514,7 @@ color:black;
 .promo {
   position: relative;
   z-index: 10;
-  width: 310px;
+  width: 30%;
  }
  
  .promo::after{
@@ -541,7 +539,6 @@ color:black;
 }
 
 .promo p {
-  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
@@ -637,7 +634,7 @@ color:black;
  .promo {
   position: relative;
   z-index: 10;
-  width: 310px;
+  width: 30%;
  }
  
  .promo::after{
@@ -662,7 +659,6 @@ color:black;
 }
 
 .promo p {
-  width: 300px;
   margin: 0;
   margin-bottom: 15px;
   color:#ffffff;
