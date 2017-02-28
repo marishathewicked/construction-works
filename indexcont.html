@@ -5,65 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ИП Каян Евгений Васильевич</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylecont.css" media="screen">
+    <link rel="stylesheet" href="css/stylecont.css" media="screen">  
+    <script src="https://vk.com/js/api/openapi.js?139" type="text/javascript"></script>  
   </head>
   <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="header-top">
-          <div class="logo">
+    <header class="main-header" class="col-md-4 col-sm-6 col-xs-12">
+	 <div class="menu-row">
+          <div class="main">
+			 <div class="logo">
             </div>
-          <nav class="main-menu">
-            <ul>
-              <li><a href="index.html">Главная</a></li>
-              <li><a href="#">Мы в Instagram</a></li>
-              <li><a href="index.html#service">Услуги</a></li>
+          <nav>
+            <ul class="menu">
+              <li><a href="#service">Услуги</a></li>
+              <li><a href="indexcont.html">Контакты</a></li>
+              <li><a href="indexcont.html">Мы в Instagram</a></li>
            </ul>
           </nav>
         </div>
-        <div class="promo">
-          <div class="promo-title">Мы будем рады помочь</div>
-          <p>Позвоните нам:</p>
-          <ul class="phone" >
-              <li>+375 25 5321801</li>
-               </u>
-           <p>Напишите нам:</p>  
-            <ul class="massege" >
-              <li> <a href="https://vk.com/kayan_z">Евгений Каян VK</a></li>
-             </ul>  
-           <p>Наша страничка на <a href="https://s.onliner.by/profiles/8143">Onliner</a></p>        
         </div>
+      <div class="container">
+        <div class="promo">
+	     <div class="promo-title">Мы будем рады помочь</div>
+		<ul class="contactus">
+			<p>Позвоните или напишите нам</p>
+              <li>+375 25 5321801</li>
+              <!-- VK Widget -->
+              <li><div id="vk_contact_us"></div>
+               <script type="text/javascript">
+                VK.Widgets.ContactUs("vk_contact_us", {text: "напишите нам", height: 36}, 40779310);
+               </script>
+               </li>
+              <li><a href="https://s.onliner.by/profiles/8143">Страничка на Onliner</a></li>
+           </ul>
+        </div>   
       </div>
-    </header>
-    <section class="features">
-      <div class="container" class="col-md-6 col-sm-6 col-xs-12">
-        <div class="features-item">
+    </header>   
+    <section class="features" class="col-md-4 col-sm-6 col-xs-12">
+      <div class="container" >
+        <div class="features-item" >
           <div class="features-icon features-icon1"></div>
           <h2 class="features-title">Качество</h2>
-          <p>Делаем на совесть.</p>
+          <p>Делаем на совесть!</p>
         </div>
         <div class="features-item">
           <div class="features-icon features-icon2"></div>
           <h2 class="features-title">Надежность</h2>
-          <p>Хорошие специалисты всегда в цене и Мы именно такие.</p>
+          <p>Хорошие специалисты всегда в цене и Мы именно такие</p>
         </div>
         <div class="features-item">
           <div class="features-icon features-icon3"></div>
           <h2 class="features-title">Выгодная цена</h2>
-          <p>Хорошие специалисты всегда в цене и Вы станете именно таким.</p>
+          <p>Наши цены не кусаются</p>
         </div>
       </div>
     </section>
-    <footer class="main-footer">
+   <footer class="main-footer">
     <div class="container">
       <div class="row">
-        <section class="col-sm-4">
+        <section id="email" class="col-sm-4">
           <span>© 2017</span>
             <p class="small">Made by <a rel="nofollow" class="link" target="_blank"  href="https://www.linkedin.com/in/maryna-pasiuk-5717b9100?trk=hp-identity-name">M</a></p>
           <hr class="visible-xs">
         </section>
-        <section class="col-sm-4">
-                       <ul>
+        <section id="address" class="col-sm-4">
+                     <ul>
                     	<span>Link to :</span>
                     	 <li><a href="https://s.onliner.by/profiles/8143">onliner</a></li>
                         <li> <a href="https://vk.com/kayan_z">VK</a></li>
@@ -82,3 +87,4 @@
 		<script src="js/bootstrap.min.js"></script>
    </body>
 </html>
+
