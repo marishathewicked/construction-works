@@ -27,9 +27,10 @@ body {
   clear: both;
   content: "";
 }
+
 .menu-row {
-	padding:0;
-	margin-top:3px;
+padding:0;
+margin-top:3px;
 }
 
 .main {
@@ -40,6 +41,7 @@ font-size:0.875em;
 line-height:1.714em;
 position:relative;
 }
+
 .logo {
   float: left;
   margin-left:40px;
@@ -123,6 +125,7 @@ list-style-type: none;
   color:#0000CD;
   font-weight:bold;
 }
+
 .promo p {
   width: 100%;
   margin: 0;
@@ -131,6 +134,19 @@ list-style-type: none;
   font-size: 24px;
   line-height: 30px;
 }
+
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:35%;
+}
+
+.contactus p{
+color:#104E8B;
+}
+
 .contactus  a {
 color:#0000CD;
 }
@@ -227,7 +243,7 @@ color:#0000CD;
   line-height: 24px;
 }
 
-/* media */
+/* media **********************************************************************************************************/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
  /* Lage 1440x400 ok
   * Laptop 1024x369 ok */
@@ -266,7 +282,7 @@ padding-left:0px;
   content: "";
   position: absolute;
   top: 217px;
-  left:270px;
+  left:300px;
   width: 60%;
   background-image: url("https://s3.eu-central-1.amazonaws.com/marishathewicked/images/Builder/small-promo.png");
   background-repeat: no-repeat;
@@ -294,6 +310,18 @@ padding-left:0px;
 	
 .header-top {
   margin-bottom: 20px;
+}
+	
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:60%;
+}
+	
+.contactus p{
+color:#104E8B;
 }
 	
 .features-icon1 {
@@ -438,7 +466,19 @@ padding-left:0px;
 .header-top {
   margin-bottom: 20px;
 }
+		
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:100%;
+}
 	
+.contactus p{
+color:#104E8B;
+}
+
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
@@ -581,6 +621,19 @@ padding-left:0px;
 .header-top {
   margin-bottom: 20px;
 }
+	
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:100%;
+}
+	
+.contactus p{
+color:#104E8B;
+}
+	
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
@@ -722,6 +775,19 @@ padding-left:0px;
 .header-top {
   margin-bottom: 20px;
 }
+	  
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:100%;
+}
+	
+.contactus p{
+color:#104E8B;
+}  
+	  
 .features-icon1 {
   margin-left:60px;
   margin-bottom:-8px;
@@ -860,6 +926,18 @@ padding-left:0px;
 }
 .header-top {
   margin-bottom: 20px;
+}
+	
+.color {
+margin: 0;
+padding: 15px 0px 15px 25px;
+background:#FFFAFA;
+opacity:1;
+width:100%;
+}
+	
+.contactus p{
+color:#104E8B;
 }
 	
 .features-icon1 {
