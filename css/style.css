@@ -286,10 +286,23 @@ color:black;
   line-height: 24px;
 }
 
-/* media */
+/* media ***************************************************************************************************/
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+.services .color {
+background:#DCDCDC;
+opacity:1;
+width:60%;
+}
+}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
  /* Lage 1440x400 ok
   * Laptop 1024x369 ok */
+.services .color {
+background:#DCDCDC;
+opacity:1;
+width:60%;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
